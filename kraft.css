@@ -342,7 +342,7 @@ body {
    }
    .toggle-button.active {
    
-    left: 72vw;
+    left: 66vw;
     
     top: -90px;
    
@@ -365,7 +365,7 @@ body {
     }
 
     .navbar.active {
-        width: 45.2vw;
+        width: 79vw;
         height: 235px;
     }
 
@@ -385,7 +385,6 @@ body {
     position: relative;
     left: 56vw;
     border: none;
-    top: 0px;
     background: white;
     font-size: 18px;
     display: block;
