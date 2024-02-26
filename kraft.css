@@ -353,7 +353,7 @@ body {
 @media  only screen and (max-width: 624px) {
    
     .navbar {
-        width: 80.2vw;
+        width: 79vw;
         height: 50px;
         border: 0;
         background: rgba(255, 255, 255, 1);
@@ -365,13 +365,13 @@ body {
     }
 
     .navbar.active {
-        width: 80.2vw;
+        width: 45.2vw;
         height: 235px;
     }
 
     .toggle-button {
         position: relative;
-    left: 64vw;
+    left: 56vw;
     border: none;
     top: 0px;
     background: white;
@@ -380,8 +380,15 @@ body {
     }
 
     .toggle-button.active {
-        left: 64vw;
+        left: 56vw;
     top: -92px ;
+    position: relative;
+    left: 56vw;
+    border: none;
+    top: 0px;
+    background: white;
+    font-size: 18px;
+    display: block;
     }
 
     .hidden {
