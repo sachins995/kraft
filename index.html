@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="kraft.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="Logomark (5).png" alt="Logo" class="logo-img dot blur">
+            <span class="logo-text">Untitled UI</span>
+
+        </div>
+        <button class="toggle-button">☰</button>
+        <div class="content">
+
+            <div class="navigation">
+                <ul>
+                    <li><a href="#" class="btn1">Home</a></li>
+
+                    <li>
+                        <select name="Products" class="drop">
+                            <option value="volvo">Pricing</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </li>
+                    <li>
+
+                        <select name="Resources" class="drop">
+
+                            <option value="volvo">Resources</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </li>
+                    <li><a href="#" class="btn2">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="actions">
+                <button class="login-btn">Log in</button>
+                <button class="signup-btn">Sign up</button>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="texts">
+        <h5 class="about-us">About us</h5>
+        <h1>About the company</h1>
+        <h4 class="learn">Learn more about the company and the team behind it</h4>
+    </div>
+    <div class="details">
+        <img src="Image.png" class="pic">
+        <div class="data">
+
+            <h5 class="about-us2">We've helped hundreds of companies</h5>
+
+            <h1>We're only just getting<br>started on our journey </h1>
+            <p class="hidden">Everything you need to build modern UI and great products. We've done all the heavy
+                lifting so you don't have to — the perfect starting point for any project.</p>
+            <div class="numbers">
+                <div class="offer">
+                    <h1 class="numeric">400+</h1>
+                    <p>Project Completed</p>
+                </div>
+                <div class="offer">
+                    <h1 class="numeric">600%</h1>
+                    <p>Return on investment</p>
+                </div>
+            </div>
+            <div class="numbers">
+                <div class="offer">
+                    <h1 class="numeric">10k</h1>
+                    <p>Global downloads</p>
+                </div>
+                <div class="offer" style="margin-left : 5px">
+                    <h1 class="numeric">200+</h1>
+                    <p>5-star reviews</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const toggleButton = document.querySelector('.toggle-button')
+        const navbarMenu = document.querySelector('.content')
+        const navbar = document.querySelector('.navbar')
+        toggleButton.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active')
+            navbar.classList.toggle('active')
+            toggleButton.classList.toggle('active')
+        })
+    </script>
+
+</body>
+
+</html>
